@@ -6,7 +6,7 @@
 ## Architecture
 
 OSI-Layer interaction:
-* L7 (Application)   HTTP (Express/Node.js), routes: /, /users, /crash
+* L7 (Application)   HTTP (Express/Node.js)
 * L6 (Presentation)  TLS not used. HTTP only. Traffic is internal to the cluster
 * L5 (Session)       Not used. No persistent session handling
 * L4 (Transport)     TCP (port 3000 internal, port 80 exposed via NodePort 31758)
