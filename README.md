@@ -75,17 +75,11 @@ helm install node-hostname ./node-hostname-chart
 ```
 minikube service node-hostname-service
 ```
-press ctrl + C to to stop the tunnel when done.
+Press `Ctrl + C` to stop the tunnel when done.
 
 #### 6. Rolling update
 Edit `routes/index.js` and change the release field from v2 to v3:
-```` 
-
-var express = require('express');
-var router = express.Router();
-var os = require('os');
-
-/* GET home page. */
+```
 router.get('/', function(req, res, next) {
   res.send({
     hostname: os.hostname(),
@@ -93,8 +87,6 @@ router.get('/', function(req, res, next) {
     release: 'v3',
   });
 });
-
-module.exports = router;
 ```
 
 Then build, push and update:
@@ -113,20 +105,21 @@ minikube service node-hostname-service
 
 
 #### 8. Rollback if needed
-
-
-``` 
-
+```
 kubectl rollout undo deployments/node-hostname
 ```
+
 press ctrl + C to to stop the tunnel when done.
 
-#### 9. Verify rollback woks
-Does it still say v3? 
+#### 9. Verify rollback works
+It should NO LONGER say v3 :)
 ```
 minikube service node-hostname-service
 ```
-press ctrl + C to to stop the tunnel when done.
+Press `Ctrl + C` to stop the tunnel when done.
+
+#### 10. Good job!
+  Well done!
 
 
 ### TODO
@@ -146,7 +139,7 @@ Downtime from power cut:
 Slow/stressful deployments:
 
 - [ ] Build automated CI/CD pipelines
-- [ ]Separate development and production environments
+- [ ] Separate development and production environments
 - [ ] Add automated tests
 
 Security & production hardening:
