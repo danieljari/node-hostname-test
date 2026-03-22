@@ -13,3 +13,10 @@ OSI-Layer interaction:
 * L3 (Network)       Pod IPs (10.x.x.x via CNI), tunnelled via minikube to 127.0.0.1
 * L2 (Data Link)     Virtual network (minikube docker bridge)
 * L1 (Physical)      Local machine 
+
+
+**This setup is intended for a local development environment.**
+
+It is designed to:
+- Run locally using Minikube
+- Follow basic docker and Kubernetes best practices
