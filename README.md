@@ -122,6 +122,7 @@ Press `Ctrl + C` to stop the tunnel when done.
   Well done!
 
 
+
 ### TODO
 
 Slow at peak hours:
@@ -157,7 +158,9 @@ Observability:
 - [ ] Add logging and alerting
 
 
+
 ## Reflection
+
 
 A to-do is not easy to do (Ba-dum tss!). 
 
@@ -166,6 +169,8 @@ There is much to consider before production, like architecture, potential sellin
 I felt incredibly rewarded by going through this process with you. I’ve learned so much through the preparation and research, it was challenging, fun, and deeply satisfying. I gained a better understanding of cloud sovereignty, which is something I’m truly passionate about and believe is an essential right for Europeans when engaging with cloud technologies. I also realized just how vast the world of Kubernetes is. The more I learn, the more I understand how much there still is to explore.
 
 Thank you!
+
+
 
 ## Sources
 ### Link to my Github:
