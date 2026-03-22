@@ -20,3 +20,27 @@ OSI-Layer interaction:
 It is designed to:
 - Run locally using Minikube
 - Follow basic docker and Kubernetes best practices
+
+## How to setup and run
+### prerequires
+
+- Minikube
+- kubectl
+- Docker 
+- Helm 
+- Git
+
+run the command to check if you have everything needed:
+
+git --version && docker version && minikube version && kubectl version && helm version
+
+
+### How to setup and run:
+
+
+
+
+### TODO
+
+
+
