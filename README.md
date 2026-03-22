@@ -30,7 +30,7 @@ A representation (made in Draw.io) of how minikube works:
 
 
 ## How to setup and run
-### prerequires
+## prerequires
 
 - [Git](https://git-scm.com/downloads)
 - [Docker](https://docs.docker.com/get-docker/)
@@ -43,7 +43,7 @@ run the command to check if you have everything needed:
 git --version && docker version && minikube version && kubectl version && helm version
 
 
-### How to setup and run
+## How to setup and run
 
 #### 1. Clone the repository
 ```bash
