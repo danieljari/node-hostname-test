@@ -1,4 +1,10 @@
-Architecture
+# A Docker & Kubernetes Demo
+
+## A minimal application containerized with Docker and deployed on Kubernetes using Minikube.
+
+
+## Architecture
+
 OSI-Layer interaction:
 * L7 (Application)   HTTP (Express/Node.js), routes: /, /users, /crash
 * L6 (Presentation)  TLS not used. HTTP only. Traffic is internal to the cluster
