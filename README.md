@@ -58,10 +58,9 @@ minikube start
 
 #### 3. Login and push Docker image
 You need a [Docker Hub](https://hub.docker.com) account.
-
+> Replace `<your-dockerhub-username>` with your Docker Hub username.
 ```
 eval $(minikube docker-env -u)
-
 docker login
 docker build -t <your-dockerhub-username>/node-hostname:latest .
 docker push <your-dockerhub-username>/node-hostname:latest
