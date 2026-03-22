@@ -24,11 +24,11 @@ It is designed to:
 ## How to setup and run
 ### prerequires
 
-- Minikube
-- kubectl
-- Docker 
-- Helm 
-- Git
+- [Git](https://git-scm.com/downloads)
+- [Docker](https://docs.docker.com/get-docker/)
+- [Minikube](https://minikube.sigs.k8s.io/docs/start/)
+- [kubectl](https://kubernetes.io/docs/tasks/tools/)
+- [Helm](https://helm.sh/docs/intro/install/)
 
 run the command to check if you have everything needed:
 
